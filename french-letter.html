@@ -22,8 +22,29 @@
     <hr />
 
     <div class="section-title">Demos</div>
-    <div class="card">
-      <div id="nowPlaying" class="nowplaying"></div>
+
+<div class="card">
+  <div id="nowPlaying" class="nowplaying"></div>
+
+  <div class="playerbar">
+    <input
+      id="seek"
+      type="range"
+      min="0"
+      max="1000"
+      value="0"
+      aria-label="Seek"
+    />
+    <div class="small">
+      <span id="tcur">0:00</span> /
+      <span id="tdur">0:00</span>
+    </div>
+  </div>
+
+  <!-- tracks start here -->
+  ...
+</div>
+
 
       <div class="track" data-track data-src="assets/mp3/french-letter/Natural_Disasters.mp3">
         <div>

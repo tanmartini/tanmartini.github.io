@@ -1,0 +1,107 @@
+:root{
+  --bg:#fff;
+  --text:#111;
+  --muted:#666;
+  --hair: rgba(0,0,0,.12);
+  --max: 980px;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+  line-height:1.55;
+}
+
+.container{
+  max-width:var(--max);
+  margin:0 auto;
+  padding:52px 24px 90px;
+}
+
+a{color:inherit;text-decoration:none}
+a:hover{text-decoration:underline}
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:baseline;
+  gap:16px;
+  margin-bottom:26px;
+}
+
+.small{font-size:14px;color:var(--muted)}
+
+.intro{
+  max-width:760px;
+  font-size:18px;
+  color:#1a1a1a;
+}
+
+.bandlist{margin-top:30px; display:grid; gap:14px}
+
+/* “crazy font” without external dependencies (you can swap later) */
+.bandlink{
+  display:inline-block;
+  font-size: clamp(30px, 4.4vw, 56px);
+  line-height:1.02;
+  padding:6px 0;
+  font-family: "Brush Script MT","Chalkduster","Marker Felt","Papyrus","Comic Sans MS",cursive;
+  transform: rotate(-0.6deg);
+}
+.bandlink:nth-child(2n){transform: rotate(0.9deg)}
+.bandlink:nth-child(3n){transform: rotate(-1.2deg)}
+
+hr{border:0;border-top:1px solid var(--hair); margin:30px 0}
+
+.band-title{
+  font-size: clamp(36px, 5vw, 66px);
+  font-family: "Brush Script MT","Chalkduster","Marker Felt","Papyrus","Comic Sans MS",cursive;
+  margin:4px 0 10px;
+}
+
+.section-title{
+  margin:24px 0 10px;
+  font-size:12px;
+  text-transform:uppercase;
+  letter-spacing:.18em;
+  color:var(--muted);
+}
+
+.card{
+  border:1px solid var(--hair);
+  border-radius:14px;
+  padding:14px;
+  background:#fff;
+}
+
+.track{
+  display:grid;
+  grid-template-columns: 1fr auto;
+  gap:10px;
+  padding:10px 0;
+  border-bottom:1px solid var(--hair);
+}
+.track:last-child{border-bottom:0}
+
+.track button{
+  border:1px solid var(--hair);
+  background:#fff;
+  border-radius:999px;
+  padding:6px 12px;
+  cursor:pointer;
+  font-size:14px;
+}
+.track button:hover{border-color: rgba(0,0,0,.25)}
+
+.download{
+  font-size:13px;
+  color:var(--muted);
+  margin-left:10px;
+  border-bottom:1px dotted rgba(0,0,0,.25);
+}
+
+.nowplaying{font-size:14px;color:var(--muted)}

@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>French Letter — Demos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="small">Demos Archive</div>
+      <div class="small"><a href="index.html">← back</a></div>
+    </div>
+
+    <h1 class="band-title">French Letter</h1>
+    <p class="intro">
+      A few sentences about French Letter — where it happened, the era, the lineup, the vibe.
+      Keep it short and a little narrative.
+    </p>
+
+    <hr />
+
+    <div class="section-title">Demos</div>
+    <div class="card">
+      <div id="nowPlaying" class="nowplaying"></div>
+
+      <div class="track" data-track data-src="assets/mp3/french-letter/song-01.mp3">
+        <div>
+          <div data-title>Song 01 — “Title Here”</div>
+          <div class="small">year · note · length</div>
+        </div>
+        <div>
+          <button data-action="toggle" type="button">Play</button>
+          <a class="download" href="assets/mp3/french-letter/song-01.mp3" download>Download</a>
+        </div>
+      </div>
+
+      <div class="track" data-track data-src="assets/mp3/french-letter/song-02.mp3">
+        <div>
+          <div data-title>Song 02 — “Title Here”</div>
+          <div class="small">year · note · length</div>
+        </div>
+        <div>
+          <button data-action="toggle" type="button">Play</button>
+          <a class="download" href="assets/mp3/french-letter/song-02.mp3" download>Download</a>
+        </div>
+      </div>
+
+      <div class="small" style="margin-top:10px;">
+        Only one track plays at a time on this page.
+      </div>
+    </div>
+
+    <hr />
+    <div class="small">
+      <a href="index.html">Home</a>
+    </div>
+  </div>
+
+  <script src="player.js"></script>
+</body>
+</html>

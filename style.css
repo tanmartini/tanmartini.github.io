@@ -142,5 +142,20 @@ hr{border:0;border-top:1px solid var(--hair); margin:30px 0}
   margin-top: 24px;
 }
 
+/* Band-page banner (container width, responsive) */
+.hero {
+  margin: 14px 0 18px;
+}
+
+.hero img {
+  width: 100%;
+  height: clamp(180px, 32vw, 360px);
+  object-fit: cover;
+  display: block;
+  border-radius: 16px;
+  border: 1px solid var(--hair);
+}
+
+
 
 

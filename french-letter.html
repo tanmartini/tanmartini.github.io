@@ -21,7 +21,6 @@
       <div class="small"><a href="index.html">← back</a></div>
     </div>
 
-    <!-- Band title uses the SAME font as the index page -->
     <h1 class="band-title font-trade-winds">French Letter</h1>
 
     <p class="intro">
@@ -31,89 +30,7 @@
 
     <hr />
 
-    <div class="section-title">Demos</div>
-
-    <div class="card">
-      <div id="nowPlaying" class="nowplaying"></div>
-
-      <!-- Shared timeline -->
-      <div class="playerbar">
-        <input
-          id="seek"
-          type="range"
-          min="0"
-          max="1000"
-          value="0"
-          aria-label="Seek"
-        />
-        <div class="small">
-          <span id="tcur">0:00</span> /
-          <span id="tdur">0:00</span>
-        </div>
-      </div>
-
-      <!-- Track 01 -->
-      <div class="track" data-track data-src="assets/mp3/french-letter/Natural_Disasters.mp3">
-        <div>
-          <div data-title>Song 01 — “Natural Disasters”</div>
-          <div class="small">demo · French Letter</div>
-        </div>
-        <div>
-          <button data-action="toggle" type="button">Play</button>
-          <a class="download" href="assets/mp3/french-letter/Natural_Disasters.mp3" download>
-            Download
-          </a>
-        </div>
-      </div>
-
-      <!-- Track 02 -->
-      <div class="track" data-track data-src="assets/mp3/french-letter/Song_For_The_Dead.mp3">
-        <div>
-          <div data-title>Song 02 — “Song For The Dead”</div>
-          <div class="small">demo · French Letter</div>
-        </div>
-        <div>
-          <button data-action="toggle" type="button">Play</button>
-          <a class="download" href="assets/mp3/french-letter/Song_For_The_Dead.mp3" download>
-            Download
-          </a>
-        </div>
-      </div>
-
-      <!-- Track 03 -->
-      <div class="track" data-track data-src="assets/mp3/french-letter/I_Am_Older_Now.mp3">
-        <div>
-          <div data-title>Song 03 — “I Am Older Now”</div>
-          <div class="small">demo · French Letter</div>
-        </div>
-        <div>
-          <button data-action="toggle" type="button">Play</button>
-          <a class="download" href="assets/mp3/french-letter/I_Am_Older_Now.mp3" download>
-            Download
-          </a>
-        </div>
-      </div>
-
-      <!-- Track 04 -->
-      <div class="track" data-track data-src="assets/mp3/french-letter/Privilege.mp3">
-        <div>
-          <div data-title>Song 04 — “Privilege”</div>
-          <div class="small">demo · French Letter</div>
-        </div>
-        <div>
-          <button data-action="toggle" type="button">Play</button>
-          <a class="download" href="assets/mp3/french-letter/Privilege.mp3" download>
-            Download
-          </a>
-        </div>
-      </div>
-
-      <div class="small" style="margin-top:10px;">
-        Only one track plays at a time on this page.
-      </div>
-    </div>
-
-    <!-- NEW: About + Members + Visuals -->
+    <!-- About + Members FIRST -->
     <div class="section-title">About</div>
 
     <p class="intro">
@@ -131,6 +48,79 @@
       Tim Martin — Bass
     </p>
 
+    <hr />
+
+    <!-- Demos AFTER context -->
+    <div class="section-title">Demos</div>
+
+    <div class="card">
+      <div id="nowPlaying" class="nowplaying"></div>
+
+      <div class="playerbar">
+        <input
+          id="seek"
+          type="range"
+          min="0"
+          max="1000"
+          value="0"
+          aria-label="Seek"
+        />
+        <div class="small">
+          <span id="tcur">0:00</span> /
+          <span id="tdur">0:00</span>
+        </div>
+      </div>
+
+      <div class="track" data-track data-src="assets/mp3/french-letter/Natural_Disasters.mp3">
+        <div>
+          <div data-title>Song 01 — “Natural Disasters”</div>
+          <div class="small">demo · French Letter</div>
+        </div>
+        <div>
+          <button data-action="toggle" type="button">Play</button>
+          <a class="download" href="assets/mp3/french-letter/Natural_Disasters.mp3" download>Download</a>
+        </div>
+      </div>
+
+      <div class="track" data-track data-src="assets/mp3/french-letter/Song_For_The_Dead.mp3">
+        <div>
+          <div data-title>Song 02 — “Song For The Dead”</div>
+          <div class="small">demo · French Letter</div>
+        </div>
+        <div>
+          <button data-action="toggle" type="button">Play</button>
+          <a class="download" href="assets/mp3/french-letter/Song_For_The_Dead.mp3" download>Download</a>
+        </div>
+      </div>
+
+      <div class="track" data-track data-src="assets/mp3/french-letter/I_Am_Older_Now.mp3">
+        <div>
+          <div data-title>Song 03 — “I Am Older Now”</div>
+          <div class="small">demo · French Letter</div>
+        </div>
+        <div>
+          <button data-action="toggle" type="button">Play</button>
+          <a class="download" href="assets/mp3/french-letter/I_Am_Older_Now.mp3" download>Download</a>
+        </div>
+      </div>
+
+      <div class="track" data-track data-src="assets/mp3/french-letter/Privilege.mp3">
+        <div>
+          <div data-title>Song 04 — “Privilege”</div>
+          <div class="small">demo · French Letter</div>
+        </div>
+        <div>
+          <button data-action="toggle" type="button">Play</button>
+          <a class="download" href="assets/mp3/french-letter/Privilege.mp3" download>Download</a>
+        </div>
+      </div>
+
+      <div class="small" style="margin-top:10px;">
+        Only one track plays at a time on this page.
+      </div>
+    </div>
+
+    <!-- Visuals AFTER demos -->
     <div class="section-title">Photos</div>
 
     <div class="visuals-grid">
@@ -154,7 +144,6 @@
     </div>
   </div>
 
-  <!-- Player logic -->
   <script src="player.js"></script>
 </body>
 </html>

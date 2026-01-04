@@ -121,4 +121,26 @@ hr{border:0;border-top:1px solid var(--hair); margin:30px 0}
 /* Dancing Script: pick a single weight to keep it consistent */
 .font-dancing-script { font-family: "Dancing Script", cursive; font-optical-sizing: auto; font-weight: 600; font-style: normal; }
 
+/* Visuals grid */
+.visuals-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 14px;
+  margin-top: 12px;
+}
+
+.visuals-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+  border: 1px solid var(--hair);
+}
+
+/* Slight separation between photos and flyers */
+.visuals-section {
+  margin-top: 24px;
+}
+
+
 

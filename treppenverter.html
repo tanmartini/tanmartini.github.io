@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Treppenverter — Demos</title>
+
+  <!-- Site CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Fonts (band titles only) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fredericka+the+Great&family=Monoton&family=New+Rocker&family=Rubik+Dirt&family=Trade+Winds&family=VT323&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="small">Demos Archive</div>
+      <div class="small"><a href="index.html">← back</a></div>
+    </div>
+
+    <!-- Container-width banner image -->
+    <div class="hero">
+      <img
+        src="assets/visuals/treppenverter/banner.jpg"
+        alt="Treppenverter"
+        style="object-position: center;"
+      />
+    </div>
+
+    <h1 class="band-title font-monoton">Treppenverter</h1>
+
+    <p class="intro">
+      <!-- Example: Williamsburg, Brooklyn (YEAR-YEAR) -->
+      <!-- Replace or delete this line -->
+    </p>
+
+    <hr />
+
+    <!-- About -->
+    <div class="section-title">About</div>
+    <p class="intro">
+      <!-- Paste your Treppenverter description here -->
+    </p>
+
+    <!-- Band Members (optional; delete section if you don't want it) -->
+    <div class="section-title">Band Members</div>
+    <p class="small">
+      <!-- Example:
+      Name — Instrument<br />
+      Name — Instrument<br />
+      -->
+    </p>
+
+    <hr />
+
+    <!-- Demos -->
+    <div class="section-title">Demos</div>
+
+    <div class="card">
+      <div id="nowPlaying" class="nowplaying"></div>
+
+      <div class="playerbar">
+        <input
+          id="seek"
+          type="range"
+          min="0"
+          max="1000"
+          value="0"
+          aria-label="Seek"
+        />
+        <div class="small">
+          <span id="tcur">0:00</span> /
+          <span id="tdur">0:00</span>
+        </div>
+      </div>
+
+      <!-- Replace the filenames below with your actual MP3 names -->
+      <div class="track" data-track data-src="assets/mp3/treppenverter/song-01.mp3">
+        <div><div data-title>Song 01</div></div>
+        <div>
+          <button data-action="toggle" type="button">Play</button>
+          <a class="download" href="assets/mp3/treppenverter/song-01.mp3" download>Download</a>
+        </div>
+      </div>
+
+      <div class="track" data-track data-src="assets/mp3/treppenverter/song-02.mp3">
+        <div><div data-title>Song 02</div></div>
+        <div>
+          <button data-action="toggle" type="button">Play</button>
+          <a class="download" href="assets/mp3/treppenverter/song-02.mp3" download>Download</a>
+        </div>
+      </div>
+
+      <div class="track" data-track data-src="assets/mp3/treppenverter/song-03.mp3">
+        <div><div data-title>Song 03</div></div>
+        <div>
+          <button data-action="toggle" type="button">Play</button>
+          <a class="download" href="assets/mp3/treppenverter/song-03.mp3" download>Download</a>
+        </div>
+      </div>
+
+      <div class="track" data-track data-src="assets/mp3/treppenverter/song-04.mp3">
+        <div><div data-title>Song 04</div></div>
+        <div>
+          <button data-action="toggle" type="button">Play</button>
+          <a class="download" href="assets/mp3/treppenverter/song-04.mp3" download>Download</a>
+        </div>
+      </div>
+
+      <div class="track" data-track data-src="assets/mp3/treppenverter/song-05.mp3">
+        <div><div data-title>Song 05</div></div>
+        <div>
+          <button data-action="toggle" type="button">Play</button>
+          <a class="download" href="assets/mp3/treppenverter/song-05.mp3" download>Download</a>
+        </div>
+      </div>
+
+      <div class="track" data-track data-src="assets/mp3/treppenverter/song-06.mp3">
+        <div><div data-title>Song 06</div></div>
+        <div>
+          <button data-action="toggle" type="button">Play</button>
+          <a class="download" href="assets/mp3/treppenverter/song-06.mp3" download>Download</a>
+        </div>
+      </div>
+
+      <div class="track" data-track data-src="assets/mp3/treppenverter/song-07.mp3">
+        <div><div data-title>Song 07</div></div>
+        <div>
+          <button data-action="toggle" type="button">Play</button>
+          <a class="download" href="assets/mp3/treppenverter/song-07.mp3" download>Download</a>
+        </div>
+      </div>
+
+      <div class="track" data-track data-src="assets/mp3/treppenverter/song-08.mp3">
+        <div><div data-title>Song 08</div></div>
+        <div>
+          <button data-action="toggle" type="button">Play</button>
+          <a class="download" href="assets/mp3/treppenverter/song-08.mp3" download>Download</a>
+        </div>
+      </div>
+
+      <div class="track" data-track data-src="assets/mp3/treppenverter/song-09.mp3">
+        <div><div data-title>Song 09</div></div>
+        <div>
+          <button data-action="toggle" type="button">Play</button>
+          <a class="download" href="assets/mp3/treppenverter/song-09.mp3" download>Download</a>
+        </div>
+      </div>
+
+      <div class="track" data-track data-src="assets/mp3/treppenverter/song-10.mp3">
+        <div><div data-title>Song 10</div></div>
+        <div>
+          <button data-action="toggle" type="button">Play</button>
+          <a class="download" href="assets/mp3/treppenverter/song-10.mp3" download>Download</a>
+        </div>
+      </div>
+
+      <div class="small" style="margin-top:10px;">
+        Only one track plays at a time on this page.
+      </div>
+    </div>
+
+    <!-- Photos -->
+    <div class="section-title">Photos</div>
+
+    <div class="visuals-grid">
+      <img src="assets/visuals/treppenverter/photo-01.jpg" alt="Treppenverter photo 1" />
+      <img src="assets/visuals/treppenverter/photo-02.jpg" alt="Treppenverter photo 2" />
+      <img src="assets/visuals/treppenverter/photo-03.jpg" alt="Treppenverter photo 3" />
+      <img src="assets/visuals/treppenverter/photo-04.jpg" alt="Treppenverter photo 4" />
+    </div>
+
+    <!-- Flyers -->
+    <div class="section-title visuals-section">Flyers</div>
+
+    <div class="visuals-grid">
+      <img src="assets/visuals/treppenverter/flyer-01.jpg" alt="Treppenverter flyer 1" />
+      <img src="assets/visuals/treppenverter/flyer-02.jpg" alt="Treppenverter flyer 2" />
+    </div>
+
+    <hr />
+
+    <div class="small">
+      <a href="index.html">Home</a>
+    </div>
+  </div>
+
+  <script src="player.js"></script>
+</body>
+</html>
